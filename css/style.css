@@ -1,0 +1,177 @@
+﻿@font-face {
+  font-family: 'OpenSansBold';
+  src: url('fonts/opensanshebrew-bold-webfont.eot'); /* IE9 Compat Modes */
+  src: url('fonts/opensanshebrew-bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/opensanshebrew-bold-webfont.woff') format('woff'), /* Modern Browsers */
+       url('fonts/opensanshebrew-bold-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/opensanshebrew-bold-webfont.svg#8b4b25a9e6dee2304c08fefb363a9190') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  700;
+}
+
+@font-face {
+  font-family: 'OpenSansBoldItalic';
+  src: url('fonts/opensanshebrew-bolditalic-webfont.eot'); /* IE9 Compat Modes */
+  src: url('fonts/opensanshebrew-bolditalic-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/opensanshebrew-bolditalic-webfont.woff') format('woff'), /* Modern Browsers */
+       url('fonts/opensanshebrew-bolditalic-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/opensanshebrew-bolditalic-webfont.svg#c21c03ab7080535ee57497eccfdf86e3') format('svg'); /* Legacy iOS */
+       
+  font-style:   italic;
+  font-weight:  700;
+}
+
+@font-face {
+  font-family: 'OpenSansExtraBold';
+  src: url('fonts/opensanshebrew-extrabold-webfont.eot'); /* IE9 Compat Modes */
+  src: url('fonts/opensanshebrew-extrabold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/opensanshebrew-extrabold-webfont.woff') format('woff'), /* Modern Browsers */
+       url('fonts/opensanshebrew-extrabold-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/opensanshebrew-extrabold-webfont.svg#f7e80113069d64680d94be62885b159d') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  900;
+}
+
+@font-face {
+  font-family: 'OpenSansExtraBoldItalic';
+  src: url('fonts/opensanshebrew-extrabolditalic-webfont.eot'); /* IE9 Compat Modes */
+  src: url('fonts/opensanshebrew-extrabolditalic-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/opensanshebrew-extrabolditalic-webfont.woff') format('woff'), /* Modern Browsers */
+       url('fonts/opensanshebrew-extrabolditalic-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/opensanshebrew-extrabolditalic-webfont.svg#0aa7139bf6d3c365c59c140c3c8e269e') format('svg'); /* Legacy iOS */
+       
+  font-style:   italic;
+  font-weight:  900;
+}
+
+@font-face {
+  font-family: 'OpenSansItalic';
+  src: url('fonts/opensanshebrew-italic-webfont.eot'); /* IE9 Compat Modes */
+  src: url('fonts/opensanshebrew-italic-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/opensanshebrew-italic-webfont.woff') format('woff'), /* Modern Browsers */
+       url('fonts/opensanshebrew-italic-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/opensanshebrew-italic-webfont.svg#c710e2592c6201f5dff5fe5ae74e9d58') format('svg'); /* Legacy iOS */
+       
+  font-style:   italic;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'OpenSansLight';
+  src: url('fonts/opensanshebrew-light-webfont.eot'); /* IE9 Compat Modes */
+  src: url('fonts/opensanshebrew-light-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/opensanshebrew-light-webfont.woff') format('woff'), /* Modern Browsers */
+       url('fonts/opensanshebrew-light-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/opensanshebrew-light-webfont.svg#1e3cbe1d61c0f2b766b8aff35f09f556') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  200;
+}
+
+@font-face {
+  font-family: 'OpenSansLightItalic';
+  src: url('fonts/opensanshebrew-lightitalic-webfont.eot'); /* IE9 Compat Modes */
+  src: url('fonts/opensanshebrew-lightitalic-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/opensanshebrew-lightitalic-webfont.woff') format('woff'), /* Modern Browsers */
+       url('fonts/opensanshebrew-lightitalic-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/opensanshebrew-lightitalic-webfont.svg#c137a74dd645478d57aebcd9a32af039') format('svg'); /* Legacy iOS */
+       
+  font-style:   italic;
+  font-weight:  200;
+}
+
+@font-face {
+  font-family: 'OpenSansRegular';
+  src: url('fonts/opensanshebrew-regular-webfont.eot'); /* IE9 Compat Modes */
+  src: url('fonts/opensanshebrew-regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/opensanshebrew-regular-webfont.woff') format('woff'), /* Modern Browsers */
+       url('fonts/opensanshebrew-regular-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/opensanshebrew-regular-webfont.svg#265e1bf8eadfa92b8d955acd546bd2c3') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+body {
+    font-family: OpenSansRegular;
+    margin:0px;padding:0px;
+    direction:rtl;
+    text-align:right;
+}
+
+
+.container {
+    width: 100%;
+    max-width:100%;
+    padding:0px;
+    margin:0px;
+}
+
+
+
+.col-lg-9, .col-lg-8, .col-lg-3, .col-lg-4, 
+.col-md-9, .col-md-8, .col-md-4, .col-md-3, .col-md-10, .col-md-12,
+.col-sm-10, .col-sm-6, .col-sm-2, .col-xs-10, 
+.col-xs-6, .col-xs-2, .col-xs-3, .col-sm-3, .col-xs-1, .col-xs-7, .col-xs-12, .col-xs-9, .col-xs-8, .col-xs-4,
+.row {
+    padding:0px;margin:0px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #00b0f0;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #00b0f0;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #00b0f0;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #00b0f0;
+}
+
+.moreDetails {
+    float: right;
+    width: 150px;
+    height: 40px;
+    border: 1px solid white;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border-radius:4px;
+    padding: 7px;
+    text-align: center;
+    cursor: pointer;
+}
+
+    .moreDetails:hover {
+        color: #00b0f0;
+        border-color: #00b0f0;
+    }
+
+#mainImage {
+    float: left;
+    width: 100%;
+    height: 501px;
+    background-image: url('..\\cut\\big_pic1.jpg');
+    background-position: center center;
+    background-size: 100% auto;
+}
+
+.linkText {
+    float: right;
+}
+
+.oneLink {
+    float: right;
+    width: 100%;
+    cursor:pointer;
+}
+
+.oneDocument {
+    float: right;
+    width: 33.3%;
+    margin-bottom: 20px;
+    cursor:pointer;
+}

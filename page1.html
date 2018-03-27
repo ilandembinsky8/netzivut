@@ -1,0 +1,201 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <title>נציבות שירות המדינה</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.4.0/css/bootstrap-rtl.css">
+        <link rel="stylesheet" href="css/style.css" />
+         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+      <script>
+          var image = 1;
+          function moveImage(x) {
+              if (x == 1) {
+                  image++;
+                  if (image > 3) image = 1;
+                  y = "url('cut/big_pic" + image + ".jpg')";
+                  document.getElementById("mainImage").style.backgroundImage = y;
+                  
+              }
+          }
+      </script>
+  </head>
+  <body style="overflow-x:hidden">
+      <div class="container">
+          <div style="float:left;width:100%;height:69px;background-color:white;padding:15px;box-sizing:border-box">
+              <div style="float:left;width:268px;height:39px;background-image:url('cut/search_field.png');box-sizing:border-box;padding:5px">
+                  <div style="float:left;margin-top:5px;margin-left:10px"><img src="cut/magni.png" /></div>
+                  <div style="float:right;width:200px;height:100%;margin-right:10px"><input style="width:100%;height:70%;margin-top:5px;width:100%;border:0px;font-size:1.125em;color:#00b0f0" placeholder="מה את/ה רוצה לחפש?" /></div>
+              </div>
+              <div style="float:left;margin-left:10px;font-size:1.125em;color:#2957a5;margin-top:15px">
+                  <div style="float:right;margin-left:20px;cursor:pointer">ראשי</div>
+                  <div style="float:right;margin-left:20px;cursor:pointer">טפסים</div>
+                  <div style="float:right;margin-left:20px;cursor:pointer">אירועים</div>
+                  <div style="float:right;margin-left:20px;cursor:pointer">משאבי אנוש</div>
+              </div>
+              <div style="float:right;margin-top:-5px"><img src="cut/logo.png" /></div>
+          </div>
+          <div style="float:left;width:100%;height:1px;background-color:#8e8d90"></div>
+          <div id="mainImage">
+              <div style="float:right;width:5%;padding-top:240px;text-align:center;cursor:pointer" onclick="moveImage(1)"><img src="cut/right.png" /></div>
+              <div style="float:right;margin-top:150px;width:90%;color:white">
+                  <div style="float:right;width:200px">
+                      <div style="float:right;font-size:3em;font-family:OpenSansBold">מה חדש?</div>
+                      <div style="float:right;font-size:1.33em">
+                          כאן יבוא לא יותר מדי טקסט. כל השאר בלחיצה על כפתור
+                      </div>
+                      <div class="moreDetails">פרטים נוספים</div>
+                  </div>
+              </div>
+              <div style="float:right;width:5%;padding-top:240px;text-align:center;cursor:pointer" onclick="moveImage(-1)"><img src="cut/left.png" /></div>
+          </div>
+          <div style="float:left;width:100%;margin-top:40px">
+              <div style="float:left;width:60%;height:345px;background-image:url('cut/pic_links.jpg');background-position:center center;background-size:auto 100%;box-sizing:border-box;padding:20px;padding-top:280px;font-size:2.5em;color:white">קישורים</div>
+              <div style="float:right;width:30%;margin-right:5%;font-size:1.2em;text-align:right">
+                  <div id="l1" class="oneLink">
+                      <div style="float:right;margin-left:10px"><img id="l11" src="cut/bullet.png" /></div>
+                      <div id="l12" class="linkText">קישור ראשון</div>
+                  </div>
+                  <div id="l2" class="oneLink">
+                      <div  style="float:right;margin-left:10px"><img id="l21" src="cut/bullet.png" /></div>
+                      <div id="l22" class="linkText">קישור שני</div>
+                  </div>
+                  <div id="l3" class="oneLink">
+                      <div style="float:right;margin-left:10px"><img id="l31" src="cut/bullet.png" /></div>
+                      <div id="l32" class="linkText">קישור שלישי</div>
+                  </div>
+                  <div id="l4" class="oneLink">
+                      <div style="float:right;margin-left:10px"><img id="l41" src="cut/bullet.png" /></div>
+                      <div id="l42" class="linkText">עוד קישור אחד</div>
+                  </div>
+              </div>
+          </div>
+          <div style="float:left;width:100%;margin-top:40px">
+              <div style="float:right;width:60%;height:345px;background-image:url('cut/pic_guides.png');background-position:center center;background-size:auto 100%;box-sizing:border-box;padding:20px;padding-top:280px;font-size:2.5em;color:white">מדריכים</div>
+              <div style="float:left;width:30%;margin-left:5%;font-size:1.2em;text-align:right;box-sizing:border-box;padding-top:70px;text-align:center">
+                  <div id="d1" class="oneDocument">
+                      <div style="float:right;width:100%"><img src="cut/xls.png" /></div>
+                      <div id="d11" style="float:right;width:100%">קובץ ראשון</div>
+                  </div>
+                  <div id="d2" class="oneDocument">
+                      <div style="float:right;width:100%"><img src="cut/xls.png" /></div>
+                      <div id="d21" style="float:right;width:100%">קובץ ראשון</div>
+                  </div>
+                  <div id="d3" class="oneDocument">
+                      <div style="float:right;width:100%"><img src="cut/pdf.png" /></div>
+                      <div id="d31" style="float:right;width:100%">קובץ ראשון</div>
+                  </div>
+                  <div id="d4" class="oneDocument">
+                      <div style="float:right;width:100%"><img src="cut/pdf.png" /></div>
+                      <div id="d41" style="float:right;width:100%">קובץ ראשון</div>
+                  </div>
+                  <div id="d5" class="oneDocument">
+                      <div style="float:right;width:100%"><img src="cut/pdf.png" /></div>
+                      <div id="d51" style="float:right;width:100%">קובץ ראשון</div>
+                  </div>
+                  <div id="d6" class="oneDocument">
+                      <div style="float:right;width:100%"><img src="cut/xls.png" /></div>
+                      <div id="d61" style="float:right;width:100%">קובץ ראשון</div>
+                  </div>
+              </div>
+          </div>
+          <div style="float:left;width:100%;margin-top:40px">
+              <div style="float:right;width:60%;height:520px;background-color:#00b0f0;box-sizing:border-box;padding:20px;padding-top:120px;text-align:center;font-size:1em;color:white">
+                  <div class="oneSys" id="a01" style="float:left;width:16.66%;margin-bottom:20px;cursor:pointer">
+                      <div style="float:right;width:100%"><img class="oneSys" id="i01" src="cut/icon01.png" /></div>
+                      <div style="float:right;width:100%">הרשאה במרכבה</div>
+                  </div>
+                  <div class="oneSys" id="a02" style="float:left;width:16.66%;margin-bottom:20px;cursor:pointer">
+                      <div style="float:right;width:100%"><img class="oneSys" id="i02" src="cut/icon02.png" /></div>
+                      <div style="float:right;width:100%">מרכבה</div>
+                  </div>
+                  <div class="oneSys" id="a03" style="float:left;width:16.66%;margin-bottom:20px;cursor:pointer">
+                      <div style="float:right;width:100%"><img class="oneSys" id="i03" src="cut/icon03.png" /></div>
+                      <div style="float:right;width:100%">סע"ר"</div>
+                  </div>
+                  <div class="oneSys" id="a04" style="float:left;width:16.66%;margin-bottom:20px;cursor:pointer">
+                      <div style="float:right;width:100%"><img id="i04" src="cut/icon04.png" /></div>
+                      <div style="float:right;width:100%">התקשי"ר"</div>
+                  </div>
+                  <div class="oneSys" id="a05" style="float:left;width:16.66%;margin-bottom:20px;cursor:pointer">
+                      <div style="float:right;width:100%"><img class="oneSys" id="i05" src="cut/icon05.png" /></div>
+                      <div style="float:right;width:100%">מאור</div>
+                  </div>
+                  <div class="oneSys" id="a06" style="float:left;width:16.66%;margin-bottom:20px;cursor:pointer">
+                      <div style="float:right;width:100%"><img class="oneSys" id="i06" src="cut/icon06.png" /></div>
+                      <div style="float:right;width:100%">הזמנת ציוד</div>
+                  </div>
+                  <div class="oneSys" id="a07" style="float:left;width:16.66%;margin-bottom:20px;cursor:pointer">
+                      <div style="float:right;width:100%"><img class="oneSys" id="i07" src="cut/icon07.png" /></div>
+                      <div style="float:right;width:100%">ספר טלפונים</div>
+                  </div>
+                  <div class="oneSys" id="a08" style="float:left;width:16.66%;margin-bottom:20px;cursor:pointer">
+                      <div style="float:right;width:100%"><img id="i08" src="cut/icon08.png" /></div>
+                      <div style="float:right;width:100%">הזמנת מבקרים</div>
+                  </div>
+                  <div class="oneSys" id="a09" style="float:left;width:16.66%;margin-bottom:20px;cursor:pointer">
+                      <div style="float:right;width:100%"><img class="oneSys" id="i09" src="cut/icon09.png" /></div>
+                      <div style="float:right;width:100%">אתר נש"ם</div>
+                  </div>
+                  <div class="oneSys" id="a10" style="float:left;width:16.66%;margin-bottom:20px;cursor:pointer">
+                      <div style="float:right;width:100%"><img class="oneSys" id="i10" src="cut/icon10.png" /></div>
+                      <div style="float:right;width:100%">דיווח נוכחות</div>
+                  </div>
+                  <div class="oneSys" id="a11" style="float:left;width:16.66%;margin-bottom:20px;cursor:pointer">
+                      <div style="float:right;width:100%"><img class="oneSys" id="i11" src="cut/icon11.png" /></div>
+                      <div style="float:right;width:100%">תלוש חכם</div>
+                  </div>
+                  <div id="a12" style="float:left;width:16.66%;margin-bottom:20px;cursor:pointer">
+                      <div style="float:right;width:100%"><img class="oneSys" id="i12" src="cut/icon12.png" /></div>
+                      <div style="float:right;width:100%">אקשן בייס</div>
+                  </div>
+              </div>
+              <div style="float:left;width:40%;height:520px;background-image:url('cut/pic_systems.png');background-position:center center;background-size:100% auto;box-sizing:border-box;padding:20px;padding-top:455px;font-size:2.5em;color:white">
+                  המערכות שלנו
+              </div>
+          </div>
+          <div style="float:left;width:100%;height:200px"></div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $(".oneLink").mouseover(function () {
+                x = this.id.charAt(1);
+                document.getElementById("l" + x + "2").style.color = "#2957a5";
+                document.getElementById("l" + x + "1").src = "cut/bullet_down.png";
+            });
+            $(".oneLink").mouseout(function () {
+                x = this.id.charAt(1);
+                document.getElementById("l" + x + "2").style.color = "#000000";
+                document.getElementById("l" + x + "1").src = "cut/bullet.png";
+            });
+            $(".oneDocument").mouseover(function () {
+                x = this.id.charAt(1);
+                document.getElementById("d" + x + "1").style.color = "#2957a5";
+                
+            });
+            $(".oneDocument").mouseout(function () {
+                x = this.id.charAt(1);
+                document.getElementById("d" + x + "1").style.color = "#000000";
+                
+            });
+            $(".oneSys").mouseover(function () {
+                x = this.id.charAt(1) + this.id.charAt(2);
+                document.getElementById("i" + x).src = "cut/icon"+x+"_down.png";
+
+            });
+            $(".oneSys").mouseout(function () {
+                x = this.id.charAt(1) + this.id.charAt(2);
+                document.getElementById("i" + x).src = "cut/icon" + x + ".png"
+
+            });
+        });
+    </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>
