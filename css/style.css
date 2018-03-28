@@ -376,3 +376,156 @@ input.search {
     width: 100%;
     height: 200px;
 }
+
+tr.zebra {
+    background-color: white;
+}
+
+    tr.zebra:nth-child(2n) {
+        background-color:#EAEAEA;
+    }
+
+
+.pageInTop {
+    float: left;
+    width: 100%;
+    height: 315px;
+    background-image: url('../cut/pic_in.jpg');
+    background-position: center top;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.inner {
+    margin: 0px auto;
+    width: 1400px;
+}
+
+.pageInTitle {
+    float: right;
+    width: 20%;
+    height: 60px;
+    margin-top: 255px;
+    background-color: #00b0f0;
+    font-size: 2.5em;
+    color: white;
+    font-family: OpenSansBold;
+    box-sizing: border-box;
+    padding-top: 0.1em;
+    text-align: center;
+}
+
+.innerButtons {
+    float: left;
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.oneInnerButton {
+    float: left;
+    width: 20%;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid #00b0f0;
+    margin-right: 2%;
+    border-radius: 4px;
+}
+
+.innerButtonIcon {
+    float: right;
+    width: 20%;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.innerButtonText {
+    float: left;
+    width: 80%;
+    text-align: right;
+    font-size: 1.5em;
+    color: #00b0f0;
+    margin-top: 5px;
+}
+
+.l100 {
+    float: left;
+    width: 100%;
+}
+
+
+.mediumWebpart {
+    float: right;
+    width: 60%;
+    margin-bottom: 100px;
+}
+
+.mediumTitle {
+    float: right;
+    width: 32%;
+    height: 100px;
+    background-color: #2957A5;
+}
+
+.mediumTitleIcon {
+    float: right;
+    width: 40%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.mediumTitleText {
+    float: right;
+    width: 40%;
+    color: white;
+    font-size: 2em;
+    margin-top: 50px;
+}
+
+.mediumData {
+    float: right;
+    width: 65%;
+    margin-right: 3%;
+}
+
+
+.smallWebpart {
+    float: right;
+    width: 45%;
+    margin-left:5%;
+    margin-bottom: 100px;
+}
+
+.smallTitle {
+    float: right;
+    width: 36%;
+    height: 100px;
+    background-color: #2957A5;
+}
+
+.smallTitleIcon {
+    float: right;
+    width: 40%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.smallTitleText {
+    float: right;
+    width: 40%;
+    color: white;
+    font-size: 2em;
+    margin-top: 50px;
+}
+
+.smallData {
+    float: right;
+    width: 61%;
+    margin-right: 3%;
+}
+
+table {
+    width: 100%;
+}
