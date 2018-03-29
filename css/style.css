@@ -159,6 +159,15 @@ body {
     background-size: 100% auto;
 }
 
+#mainImageMoked {
+    float: left;
+    width: 100%;
+    height: 315px;
+    background-image: url('..\\cut\\pic_moked.jpg');
+    background-position: center center;
+    background-size: 100% auto;
+}
+
 .linkText {
     float: right;
 }
@@ -249,6 +258,14 @@ input.search {
     padding-top: 240px;
     text-align: center;
     cursor: pointer;
+}
+
+.textOverImage1 {
+    float: right;
+    margin-top: 50px;
+    width: 80%;
+    margin-right:10%;
+    color: white;
 }
 
 .textOverImage {
@@ -455,6 +472,46 @@ tr.zebra {
     width: 100%;
 }
 
+.largeWebpart {
+    float: right;
+    width: 90%;
+    margin-bottom: 100px;
+}
+
+.largeTitle {
+    float: right;
+    width: 60%;
+    height: 100px;
+    background-color: #2957A5;
+}
+
+.largeTitleIcon {
+    float: right;
+    width: 15%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.largeTitleText {
+    float: right;
+    width: 70%;
+    color: white;
+    font-size: 2em;
+    margin-top: 50px;
+}
+
+.largeData {
+    float: right;
+    width: 65%;
+    margin-top:20px;
+}
+
+.mediumData {
+    float: right;
+    width: 65%;
+    margin-right: 3%;
+}
+
 
 .mediumWebpart {
     float: right;
@@ -529,3 +586,29 @@ tr.zebra {
 table {
     width: 100%;
 }
+
+tr.title {
+    color:#2957a5;
+}
+
+.mokedMain {
+    float: left;
+    width: 100%;
+    height: 48px;
+    background-color: #00b0f0;
+    font-family: OpenSansBold;
+    color: white;
+}
+
+.oneMenuItem {
+    float: right;
+    padding: 10px;
+    border-left: 1px solid white;
+    height: 48px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+    .oneMenuItem:last-child {
+        border-left: 0px;
+    }

@@ -1,0 +1,167 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <title>נציבות שירות המדינה</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.4.0/css/bootstrap-rtl.css">
+        <link rel="stylesheet" href="css/style.css" />
+         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+      <script>
+          var image = 1;
+          function moveImage(x) {
+              if (x == 1) {
+                  image++;
+                  if (image > 3) image = 1;
+                  y = "url('cut/big_pic" + image + ".jpg')";
+                  document.getElementById("mainImage").style.backgroundImage = y;
+                  
+              }
+          }
+      </script>
+  </head>
+  <body style="overflow-x:hidden">
+      <div class="container">
+          <div class="containerIn">
+              <div class="searchArea">
+                  <div class="magni"><img src="cut/magni.png" /></div>
+                  <div class="searchInput"><input class="search" placeholder="מה את/ה רוצה לחפש?" /></div>
+              </div>
+              <div class="topMenu">
+                  <div class="topMenuItem">ראשי</div>
+                  <div class="topMenuItem">טפסים</div>
+                  <div class="topMenuItem">אירועים</div>
+                  <div class="topMenuItem">משאבי אנוש</div>
+              </div>
+              <div class="logo"><img src="cut/logo.png" /></div>
+          </div>
+          <div class="topArea"></div>
+          <div id="mainImageMoked">
+              
+              <div class="textOverImage1">
+                  <div class="textOverImageIn">
+                      <div class="textOverTitle">הודעות</div>
+                      <div class="textOverText">
+                          כאן יופיעו כותרות של הודעה
+                      </div>
+                      <div class="moreDetails">פרטים נוספים</div>
+                  </div>
+              </div>
+              <div class="oneArrow" onclick="moveImage(1)"><img src="cut/right.png" /></div>
+              <div class="oneArrow" onclick="moveImage(-1)"><img src="cut/left.png" /></div>
+          </div>
+          <div class="mokedMain">
+              <div class="inner">
+                  <div class="oneMenuItem">בדיקת תנאי סף</div>
+                  <div class="oneMenuItem">הגשת מועמדות</div>
+                  <div class="oneMenuItem">ההליך המרכזי</div>
+                  <div class="oneMenuItem">הליכי מיון</div>
+                  <div class="oneMenuItem">ועדות בוחנים</div>
+                  <div class="oneMenuItem">מאגרים</div>
+                  <div class="oneMenuItem">משוב וערעורים</div>
+                  <div class="oneMenuItem">סיוע טכני מערכת</div>
+                  <div class="oneMenuItem">פרסום מכרז</div>
+                  <div class="oneMenuItem">תכניות ייחודיות</div>
+              </div>
+          </div>
+          <div class="oneSection">
+              <div class="inner">
+              <div class="largeWebpart">
+                    <div class="largeTitle">
+                        <div class="largeTitleIcon"><img src="cut/icon15.png" /></div>
+                        <div class="largeTitleText">נושאים</div>
+                    </div>
+                    <div class="largeData">
+                        <table cellspacing="0" cellpadding="0">
+                            <tr class="title">
+                                <td>כותרת</td>
+                                <td>נושא</td>
+                                <td>נושאים קשורים</td>
+                                <td>קישורים</td>
+                            </tr>
+                            <tr class="zebra">
+                                <td>מבוגרים</td>
+                                <td>מבוגרים</td>
+                                <td>התאמות; תהליכי מיון</td>
+                                <td>אתר ממשלתי לטיפול בגיל הזהב</td>
+                            </tr>
+                            <tr class="zebra">
+                                <td>בחינה בשפה זרה</td>
+                                <td>בחינה בשפה זרה</td>
+                                <td>הליכי מיון; עולים חדשים</td>
+                                <td>אתר כלשהו</td>
+                            </tr>
+                            <tr class="zebra">
+                                <td>מבוגרים</td>
+                                <td>מבוגרים</td>
+                                <td>התאמות; תהליכי מיון</td>
+                                <td>אתר ממשלתי לטיפול בגיל הזהב</td>
+                            </tr>
+                            <tr class="zebra">
+                                <td>בחינה בשפה זרה</td>
+                                <td>בחינה בשפה זרה</td>
+                                <td>הליכי מיון; עולים חדשים</td>
+                                <td>אתר כלשהו</td>
+                            </tr>
+                            <tr class="zebra">
+                                <td>מבוגרים</td>
+                                <td>מבוגרים</td>
+                                <td>התאמות; תהליכי מיון</td>
+                                <td>אתר ממשלתי לטיפול בגיל הזהב</td>
+                            </tr>
+                            <tr class="zebra">
+                                <td>בחינה בשפה זרה</td>
+                                <td>בחינה בשפה זרה</td>
+                                <td>הליכי מיון; עולים חדשים</td>
+                                <td>אתר כלשהו</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                </div>
+          </div>
+          <div class="emptySpace"></div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $(".oneLink").mouseover(function () {
+                x = this.id.charAt(1);
+                document.getElementById("l" + x + "2").style.color = "#2957a5";
+                document.getElementById("l" + x + "1").src = "cut/bullet_down.png";
+            });
+            $(".oneLink").mouseout(function () {
+                x = this.id.charAt(1);
+                document.getElementById("l" + x + "2").style.color = "#000000";
+                document.getElementById("l" + x + "1").src = "cut/bullet.png";
+            });
+            $(".oneDocument").mouseover(function () {
+                x = this.id.charAt(1);
+                document.getElementById("d" + x + "1").style.color = "#2957a5";
+                
+            });
+            $(".oneDocument").mouseout(function () {
+                x = this.id.charAt(1);
+                document.getElementById("d" + x + "1").style.color = "#000000";
+                
+            });
+            $(".oneSys").mouseover(function () {
+                x = this.id.charAt(1) + this.id.charAt(2);
+                document.getElementById("i" + x).src = "cut/icon"+x+"_down.png";
+
+            });
+            $(".oneSys").mouseout(function () {
+                x = this.id.charAt(1) + this.id.charAt(2);
+                document.getElementById("i" + x).src = "cut/icon" + x + ".png"
+
+            });
+        });
+    </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>
