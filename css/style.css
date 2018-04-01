@@ -607,8 +607,51 @@ tr.title {
     height: 48px;
     padding-right: 20px;
     padding-left: 20px;
+    cursor:pointer;
 }
 
     .oneMenuItem:last-child {
         border-left: 0px;
     }
+
+
+#inMenu {
+    position: absolute;
+    top: 433px;
+    left: 0px;
+    width: 100%;
+    background-color: Red;
+    display: none;
+    box-sizing: border-box;
+    padding: 20px;
+    color:#00b0f0;
+    border:5px solid #00b0f0;
+    border-top:0px;
+    background-color:white;
+}
+
+.oneMenuSection {
+    float: right;
+    width: 18%;
+    margin-left: 2%;
+}
+
+.menu2 {
+    float: right;
+    width: 100%;
+    font-size: 1.2em;
+}
+
+.menu3 {
+    float: right;
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: 2em;
+    font-size: 1em;
+    color:#666666;
+}
+
+.menu3In {
+    float: right;
+    width: 100%;
+}
